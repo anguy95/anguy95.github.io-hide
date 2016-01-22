@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
 $title-color: #585656;
-* {
+*, .container-fluid {
   margin: 0;
   padding: 0;
 }
@@ -8,7 +8,7 @@ $title-color: #585656;
   width: 100%;
   height: 90px;
   position: fixed;
-  background: rgba(#ffffff, 0.99);
+  background: rgba(#ffffff, 0.9);
   z-index: 999999999;
   h1 {
     width: 200px;
@@ -31,28 +31,21 @@ $title-color: #585656;
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 40px;
+    top: 45px;
     background: url(../images/logo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 450px;
   }
 }
-
-.center-title{
-    width: 150px;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    color: $title-color;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-
+.center-title {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: $title-color;
+  margin-top: 0;
+  padding-top: 50px;
 }
 .main-body {
   width: 100%;
@@ -160,20 +153,16 @@ $title-color: #585656;
     height: 800px;
     position: relative;
     background: #d56161;
-    .skills-title {
-      width: 150px;
-      text-align: center;
-      font-size: 15px;
-      font-weight: 600;
-      letter-spacing: 2px;
-      color: $title-color;
-      position: absolute;
-      top: 50px;
-      left: 0;
-      right: 0;
-      margin-left: auto;
-      margin-right: auto;
+    // .languages {
+    //   position: absolute;
+    //   top: 100px;
+    // }
+    .lang {
+      width: 240px;
+      height: 150px;
+      background-color: white;
+      margin: 15px;
+      border-radius: 20px;
     }
-
   }
 }
