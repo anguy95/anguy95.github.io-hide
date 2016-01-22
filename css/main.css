@@ -30,35 +30,36 @@
     height: 100%;
     position: absolute;
     top: 40px;
-    background: url("../images/logo.png");
+    background: url(../images/logo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 450px; }
 
-.container {
+.center-title {
+  width: 150px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #585656;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+.main-body {
   width: 100%;
   height: 100%; }
-  .container .about {
+  .main-body .about {
     width: 100%;
     height: 800px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     background: #ccc; }
-    .container .about .about_me {
-      width: 150px;
-      text-align: center;
-      font-size: 12px;
-      font-weight: 600;
-      letter-spacing: 2px;
-      color: #676565;
-      position: absolute;
-      top: 55px;
-      left: 0;
-      right: 0;
-      margin-left: auto;
-      margin-right: auto; }
-    .container .about .terminal_window {
+    .main-body .about .terminal_window {
       width: 950px;
       height: 600px;
       position: absolute;
@@ -69,7 +70,7 @@
       right: 0;
       background: #f6f6f6;
       border-radius: 8px; }
-      .container .about .terminal_window .red {
+      .main-body .about .terminal_window .red {
         width: 15px;
         height: 15px;
         position: absolute;
@@ -77,7 +78,7 @@
         left: 10px;
         border-radius: 100%;
         background: #ea534b; }
-      .container .about .terminal_window .yellow {
+      .main-body .about .terminal_window .yellow {
         width: 15px;
         height: 15px;
         position: absolute;
@@ -85,7 +86,7 @@
         left: 35px;
         border-radius: 100%;
         background: #f6bf32; }
-      .container .about .terminal_window .green {
+      .main-body .about .terminal_window .green {
         width: 15px;
         height: 15px;
         position: absolute;
@@ -93,7 +94,7 @@
         left: 60px;
         border-radius: 100%;
         background: #6cd146; }
-      .container .about .terminal_window .terminal {
+      .main-body .about .terminal_window .terminal {
         width: 100%;
         height: 575px;
         background: #8c8a8a;
@@ -101,47 +102,58 @@
         top: 25px;
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px; }
-        .container .about .terminal_window .terminal .term_message {
+        .main-body .about .terminal_window .terminal .term_message {
           font-family: 'Inconsolata', monospace;
           font-weight: 700;
           color: #212121;
           letter-spacing: 1px;
           margin-top: 10px;
           margin-left: 35px;
-          margin-bottom: 15px; }
-        .container .about .terminal_window .terminal .echo {
+          margin-bottom: 10px; }
+        .main-body .about .terminal_window .terminal .echo {
           font-family: 'Inconsolata', monospace;
           font-weight: 700;
           color: #212121;
           letter-spacing: 1px;
           margin-left: 35px;
           margin-bottom: 6px; }
-        .container .about .terminal_window .terminal .print {
+        .main-body .about .terminal_window .terminal .print {
           color: #fefafa;
           font-family: 'Inconsolata', monospace;
           font-weight: 700;
           letter-spacing: 1px;
           margin-left: 65px;
-          margin-bottom: 30px; }
-        .container .about .terminal_window .terminal .print a {
+          margin-bottom: 25px; }
+        .main-body .about .terminal_window .terminal .print a {
           text-decoration: none; }
-        .container .about .terminal_window .terminal .blink_me {
+        .main-body .about .terminal_window .terminal .blink_me {
           width: 10px;
           height: 16px;
           position: absolute;
-          top: 534px;
-          left: 180px;
+          top: 538px;
+          left: 170px;
           background: #36c823;
           animation: blinker 1s linear infinite; }
 @keyframes blinker {
   50% {
     opacity: 0.0; } }
-  .container .resume {
+  .main-body .skills {
     width: 100%;
     height: 800px;
-    background: #CD5C5C; }
-    .container .resume .coursework {
-      margin-left: 20px;
-      list-style: circle; }
+    position: relative;
+    background: #d56161; }
+    .main-body .skills .skills-title {
+      width: 150px;
+      text-align: center;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      color: #585656;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto; }
 
 /*# sourceMappingURL=main.css.map */
