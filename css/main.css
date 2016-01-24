@@ -197,12 +197,9 @@ a {
   .main-body .projects {
     background: #7aacab; }
     .main-body .projects .carousel {
-      margin-top: 30px;
-      height: 90%; }
+      margin-top: 30px; }
     .main-body .projects .carousel-inner img {
       margin: 0 auto; }
-    .main-body .projects .carousel-indicators {
-      top: 560px; }
   .main-body .contact {
     background: #69af87; }
 
