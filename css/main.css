@@ -7,7 +7,7 @@
   width: 100%;
   height: 90px;
   position: fixed;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.9);
   z-index: 999999999; }
   .navbar h1 {
     width: 200px;
@@ -55,7 +55,7 @@
     margin-right: auto;
     background: #ccc; }
     .main-body .about .terminal_window {
-      width: 950px;
+      width: 65%;
       height: 600px;
       position: absolute;
       top: 14%;
@@ -105,7 +105,7 @@
           margin-top: 10px;
           margin-left: 35px;
           margin-bottom: 10px; }
-        .main-body .about .terminal_window .terminal .echo {
+        .main-body .about .terminal_window .terminal .echo, .main-body .about .terminal_window .terminal .last-line {
           font-family: 'Inconsolata', monospace;
           font-weight: 700;
           color: #212121;
@@ -118,17 +118,21 @@
           font-weight: 700;
           letter-spacing: 1px;
           margin-left: 65px;
-          margin-bottom: 25px; }
+          margin-bottom: 2.7%; }
         .main-body .about .terminal_window .terminal .print a {
           text-decoration: none; }
-        .main-body .about .terminal_window .terminal .blink_me {
-          width: 10px;
-          height: 16px;
-          position: absolute;
-          top: 538px;
-          left: 170px;
-          background: #36c823;
-          animation: blinker 1s linear infinite; }
+        .main-body .about .terminal_window .terminal .last-term-line {
+          position: relative;
+          width: 400px;
+          height: 30px; }
+          .main-body .about .terminal_window .terminal .last-term-line .blink_me {
+            width: 10px;
+            height: 16px;
+            position: absolute;
+            top: 0px;
+            left: 45%;
+            background: #36c823;
+            animation: blinker 1s linear infinite; }
 @keyframes blinker {
   50% {
     opacity: 0.0; } }
@@ -138,7 +142,7 @@
     position: relative;
     background: #d56161; }
     .main-body .skills .lang {
-      width: 240px;
+      width: 20%;
       height: 150px;
       background-color: white;
       margin: 15px;
