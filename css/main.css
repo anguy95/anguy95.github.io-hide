@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
-*,
-.container-fluid {
+*, .container-fluid {
   margin: 0;
   padding: 0; }
 
@@ -38,7 +37,7 @@
 
 .center-title {
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
   letter-spacing: 2px;
   color: #585656;
@@ -143,15 +142,49 @@
     height: 800px;
     position: relative;
     background: #d56161; }
-    .main-body .skills .lang {
-      height: 150px;
-      background-color: white;
-      margin: 15px;
-      border-radius: 20px; }
+    .main-body .skills .skill-title {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 18px;
+      letter-spacing: 4px;
+      font-weight: 300;
+      color: white; }
     .main-body .skills .row-centered {
       text-align: center; }
     .main-body .skills .col-centered {
       display: inline-block;
       float: none; }
+    .main-body .skills .lang {
+      width: 200px;
+      height: 100px;
+      background-color: white;
+      margin: 15px;
+      border-radius: 20px; }
+
+.fancy {
+  line-height: 0.5;
+  text-align: center; }
+
+.fancy span {
+  display: inline-block;
+  position: relative; }
+
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  top: 4px;
+  width: 600px; }
+
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px; }
+
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px; }
 
 /*# sourceMappingURL=main.css.map */
