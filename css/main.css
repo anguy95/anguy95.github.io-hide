@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
-*, .container-fluid {
+*,
+.container-fluid {
   margin: 0;
   padding: 0; }
 
@@ -105,7 +106,8 @@
           margin-top: 10px;
           margin-left: 35px;
           margin-bottom: 10px; }
-        .main-body .about .terminal_window .terminal .echo, .main-body .about .terminal_window .terminal .last-line {
+        .main-body .about .terminal_window .terminal .echo,
+        .main-body .about .terminal_window .terminal .last-line {
           font-family: 'Inconsolata', monospace;
           font-weight: 700;
           color: #212121;
@@ -129,7 +131,7 @@
             width: 10px;
             height: 16px;
             position: absolute;
-            top: 0px;
+            top: 0;
             left: 45%;
             background: #36c823;
             animation: blinker 1s linear infinite; }
@@ -142,10 +144,14 @@
     position: relative;
     background: #d56161; }
     .main-body .skills .lang {
-      width: 20%;
       height: 150px;
       background-color: white;
       margin: 15px;
       border-radius: 20px; }
+    .main-body .skills .row-centered {
+      text-align: center; }
+    .main-body .skills .col-centered {
+      display: inline-block;
+      float: none; }
 
 /*# sourceMappingURL=main.css.map */
