@@ -21,6 +21,12 @@ html, body, div,
     font-weight: 400;
     letter-spacing: 2px; }
 
+a:hover {
+  color: #f9a662; }
+
+a {
+  color: #30f0d3; }
+
 .splash_image {
   height: 600px;
   width: 100%;
@@ -189,6 +195,20 @@ html, body, div,
     .main-body .skills .android-studio {
       background-image: url(../images/android_studio.svg);
       background-size: 35%; }
+  .main-body .projects {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background: #7aacab; }
+    .main-body .projects .carousel {
+      margin-top: 30px; }
+    .main-body .projects .carousel-inner img {
+      margin: 0 auto; }
+  .main-body .contact {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background: #69af87; }
 
 /* USED TO MAKE LINES FOR SKILLS SECTIONS */
 .fancy {
