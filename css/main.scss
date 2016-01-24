@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
 $title-color: #585656;
-*,.container-fluid {
+*,
+.container-fluid {
   margin: 0;
   padding: 0;
 }
@@ -159,9 +160,10 @@ $title-color: #585656;
     height: 800px;
     position: relative;
     background: #d56161;
-    .skill-title{
+    .skill-title {
       text-align: center;
       margin-top: 40px;
+      margin-bottom: 25px;
       font-size: 18px;
       letter-spacing: 4px;
       font-weight: 300;
@@ -174,17 +176,50 @@ $title-color: #585656;
       display: inline-block;
       float: none;
     }
-    .lang {
-      width: 200px;
+    .skill-box {
       height: 100px;
-      background-color: white;
-      margin: 15px;
+      margin: 15px 25px;
       border-radius: 20px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-color: rgba(#ffffff, 0.45);
+      color: rgba(255, 255, 255, 0);
+    }
+    .html {
+      background-image: url(../images/html5.svg);
+      background-size: 40%;
+    }
+    .javascript {
+      background-image: url(../images/js.svg);
+      background-size: 35%;
+    }
+    .css {
+      background-image: url(../images/css.svg);
+      background-size: 35%;
+    }
+    .java {
+      background-image: url(../images/java.svg);
+      background-size: 22%;
+    }
+    .c {
+      background-image: url(../images/c.svg);
+      background-size: 35%;
+    }
+    .illustrator {
+      background-image: url(../images/illustrator.svg);
+      background-size: 35%;
+    }
+    .photoshop {
+      background-image: url(../images/photoshop.svg);
+      background-size: 35%;
+    }
+    .android-studio {
+      background-image: url(../images/android_studio.svg);
+      background-size: 35%;
     }
   }
 }
-
-
+/* USED TO MAKE LINES FOR SKILLS SECTIONS */
 .fancy {
   line-height: 0.5;
   text-align: center;
@@ -201,7 +236,7 @@ $title-color: #585656;
   border-bottom: 1px solid white;
   border-top: 1px solid white;
   top: 4px;
-  width: 600px;
+  width: 90%;
 }
 .fancy span:before {
   right: 100%;

@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
-*, .container-fluid {
+*,
+.container-fluid {
   margin: 0;
   padding: 0; }
 
@@ -145,6 +146,7 @@
     .main-body .skills .skill-title {
       text-align: center;
       margin-top: 40px;
+      margin-bottom: 25px;
       font-size: 18px;
       letter-spacing: 4px;
       font-weight: 300;
@@ -154,13 +156,40 @@
     .main-body .skills .col-centered {
       display: inline-block;
       float: none; }
-    .main-body .skills .lang {
-      width: 200px;
+    .main-body .skills .skill-box {
       height: 100px;
-      background-color: white;
-      margin: 15px;
-      border-radius: 20px; }
+      margin: 15px 25px;
+      border-radius: 20px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-color: rgba(255, 255, 255, 0.45);
+      color: rgba(255, 255, 255, 0); }
+    .main-body .skills .html {
+      background-image: url(../images/html5.svg);
+      background-size: 40%; }
+    .main-body .skills .javascript {
+      background-image: url(../images/js.svg);
+      background-size: 35%; }
+    .main-body .skills .css {
+      background-image: url(../images/css.svg);
+      background-size: 35%; }
+    .main-body .skills .java {
+      background-image: url(../images/java.svg);
+      background-size: 22%; }
+    .main-body .skills .c {
+      background-image: url(../images/c.svg);
+      background-size: 35%; }
+    .main-body .skills .illustrator {
+      background-image: url(../images/illustrator.svg);
+      background-size: 35%; }
+    .main-body .skills .photoshop {
+      background-image: url(../images/photoshop.svg);
+      background-size: 35%; }
+    .main-body .skills .android-studio {
+      background-image: url(../images/android_studio.svg);
+      background-size: 35%; }
 
+/* USED TO MAKE LINES FOR SKILLS SECTIONS */
 .fancy {
   line-height: 0.5;
   text-align: center; }
@@ -177,7 +206,7 @@
   border-bottom: 1px solid white;
   border-top: 1px solid white;
   top: 4px;
-  width: 600px; }
+  width: 90%; }
 
 .fancy span:before {
   right: 100%;
