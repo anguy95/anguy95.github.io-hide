@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
-*,
+html, body, div,
 .container-fluid {
   margin: 0;
   padding: 0; }
@@ -152,7 +152,8 @@
       font-weight: 300;
       color: white; }
     .main-body .skills .row-centered {
-      text-align: center; }
+      text-align: center;
+      margin: 0; }
     .main-body .skills .col-centered {
       display: inline-block;
       float: none; }
@@ -166,19 +167,19 @@
       color: rgba(255, 255, 255, 0); }
     .main-body .skills .html {
       background-image: url(../images/html5.svg);
-      background-size: 40%; }
+      background-size: 35%; }
     .main-body .skills .javascript {
       background-image: url(../images/js.svg);
-      background-size: 35%; }
+      background-size: 30%; }
     .main-body .skills .css {
       background-image: url(../images/css.svg);
-      background-size: 35%; }
+      background-size: 30%; }
     .main-body .skills .java {
       background-image: url(../images/java.svg);
-      background-size: 22%; }
+      background-size: 17%; }
     .main-body .skills .c {
       background-image: url(../images/c.svg);
-      background-size: 35%; }
+      background-size: 30%; }
     .main-body .skills .illustrator {
       background-image: url(../images/illustrator.svg);
       background-size: 35%; }

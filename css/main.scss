@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
 $title-color: #585656;
-*,
+html, body, div,
 .container-fluid {
   margin: 0;
   padding: 0;
@@ -171,6 +171,7 @@ $title-color: #585656;
     }
     .row-centered {
       text-align: center;
+      margin: 0;
     }
     .col-centered {
       display: inline-block;
@@ -187,23 +188,23 @@ $title-color: #585656;
     }
     .html {
       background-image: url(../images/html5.svg);
-      background-size: 40%;
+      background-size: 35%;
     }
     .javascript {
       background-image: url(../images/js.svg);
-      background-size: 35%;
+      background-size: 30%;
     }
     .css {
       background-image: url(../images/css.svg);
-      background-size: 35%;
+      background-size: 30%;
     }
     .java {
       background-image: url(../images/java.svg);
-      background-size: 22%;
+      background-size: 17%;
     }
     .c {
       background-image: url(../images/c.svg);
-      background-size: 35%;
+      background-size: 30%;
     }
     .illustrator {
       background-image: url(../images/illustrator.svg);
