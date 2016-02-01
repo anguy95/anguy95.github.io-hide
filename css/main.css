@@ -1,12 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
-html, body, div,
+html,
+body,
+div,
 .container-fluid {
   margin: 0;
   padding: 0; }
 
 .navbar {
   width: 100%;
-  height: 90px;
+  height: 75px;
   position: fixed;
   background: rgba(255, 255, 255, 0.9);
   z-index: 999999999; }
@@ -36,7 +38,7 @@ a {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 45px;
+    top: 35px;
     background: url(../images/logo.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -170,6 +172,11 @@ a {
       background-repeat: no-repeat;
       background-color: rgba(255, 255, 255, 0.45);
       color: rgba(255, 255, 255, 0); }
+    .main-body .skills .skill-box p {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 37.5px;
+      margin-bottom: 37.5px; }
     .main-body .skills .html {
       background-image: url(../images/html5.svg);
       background-size: 35%; }
@@ -197,9 +204,17 @@ a {
   .main-body .projects {
     background: #7aacab; }
     .main-body .projects .carousel {
-      margin-top: 30px; }
+      margin-top: 30px;
+      height: 700px; }
     .main-body .projects .carousel-inner img {
-      margin: 0 auto; }
+      margin: 0 auto;
+      height: 620px; }
+    .main-body .projects .p-title {
+      color: #585656;
+      text-shadow: none; }
+    .main-body .projects .p-desc {
+      color: #585656;
+      text-shadow: none; }
   .main-body .contact {
     background: #69af87; }
 
