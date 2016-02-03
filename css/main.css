@@ -158,6 +158,8 @@ a {
       letter-spacing: 4px;
       font-weight: 300;
       color: white; }
+    .main-body .skills .language-skill {
+      max-width: auto; }
     .main-body .skills .row-centered {
       text-align: center;
       margin: 0; }
@@ -215,8 +217,31 @@ a {
     .main-body .projects .p-desc {
       color: #585656;
       text-shadow: none; }
-  .main-body .contact {
-    background: #69af87; }
+  .main-body footer {
+    background: #494949;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto; }
+    .main-body footer .copyright {
+      text-align: center;
+      color: #a7a7a7;
+      padding-top: 40px; }
+    .main-body footer .contact-icons {
+      display: block;
+      width: 190px;
+      margin: 0 auto; }
+      .main-body footer .contact-icons ul {
+        list-style: none;
+        padding: 0;
+        margin: 0; }
+      .main-body footer .contact-icons ul li {
+        display: inline;
+        margin-top: 15px;
+        margin-left: 15px; }
+      .main-body footer .contact-icons i:hover {
+        color: #a7a7a7; }
 
 /* USED TO MAKE LINES FOR SKILLS SECTIONS */
 .fancy {
