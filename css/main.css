@@ -12,16 +12,15 @@ div,
   position: fixed;
   background: rgba(255, 255, 255, 0.9);
   z-index: 999999999; }
-  .navbar h1 {
-    width: 100%;
-    margin-top: 35px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 18px;
-    color: black;
-    font-weight: 400;
-    letter-spacing: 2px; }
+  .navbar .name {
+    float: right;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    padding: 0; }
+  .navbar .dropdown {
+    margin-top: 17px;
+    padding-left: 0; }
 
 a:hover {
   color: #f9a662; }
@@ -203,14 +202,17 @@ a {
     .main-body .skills .android-studio {
       background-image: url(../images/android_studio.svg);
       background-size: 35%; }
+    .main-body .skills .sketch {
+      background-image: url(../images/sketch.svg);
+      background-size: 35%; }
   .main-body .projects {
     background: #7aacab; }
     .main-body .projects .carousel {
-      margin-top: 30px;
-      height: 700px; }
+      margin-top: 20px;
+      height: 660px; }
     .main-body .projects .carousel-inner img {
       margin: 0 auto;
-      height: 620px; }
+      height: auto; }
     .main-body .projects .p-title {
       color: #585656;
       text-shadow: none; }

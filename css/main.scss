@@ -13,16 +13,17 @@ div,
   position: fixed;
   background: rgba(#ffffff, 0.9);
   z-index: 999999999;
-  h1 {
-    width: 100%;
-    margin-top: 35px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 18px;
-    color: black;
-    font-weight: 400;
-    letter-spacing: 2px;
+  .name{
+    float: right;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    padding: 0;
+  }
+
+  .dropdown{
+    margin-top: 17px;
+    padding-left: 0;
   }
 }
 a:hover {
@@ -234,17 +235,22 @@ a {
       background-image: url(../images/android_studio.svg);
       background-size: 35%;
     }
+    .sketch{
+      background-image: url(../images/sketch.svg);
+      background-size: 35%;
+    }
   }
   .projects {
     background: rgb(122, 172, 171);
     .carousel {
-      margin-top: 30px;
-      height: 700px;
+      margin-top: 20px;
+      height: 660px;
     }
     .carousel-inner img {
       margin: 0 auto;
-      height: 620px;
+      height: auto;
     }
+
     .p-title {
       color: $title-color;
       text-shadow: none;

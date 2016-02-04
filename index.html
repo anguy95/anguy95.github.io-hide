@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
@@ -17,13 +18,31 @@
 
   <body>
     <nav class="navbar">
-      <h1 class="name">ANDREW NGUYEN</h1>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 ">
+            <h1 class="name">ANDREW NGUYEN</h1>
+          </div>
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+            <div class="dropdown">
+              <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+                <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </nav>
     <div class="splash_image">
       <div class="logo"></div>
     </div>
     <div class="main-body">
-      <section class="about section">
+      <section class="about section" id="about">
         <div class="text-center">
           <h2 class="center-title">ABOUT ME</h2>
         </div>
@@ -53,9 +72,10 @@
             <p class="echo"> $Andrews-WebSite: echo email</p>
             <p class="print"> >> <a href="mailto:anguy95@gmail.com">anguy95@gmail.com &nbsp;<i class="fa fa-envelope"></i></a></p>
 
-            <p class="echo"> $Andrews-WebSite: echo social media</p>
+            <p class="echo"> $Andrews-WebSite: echo contact andrew</p>
             <p class="print"> >> ["<a href="https://www.linkedin.com/in/andrew-nguyen-3a02a692" target="_balnk">linkedIn&nbsp;<i class="fa fa-external-link"></i></a>", "<a href="https://www.twitter.com/anguy95" target="_balnk">twitter&nbsp;<i class="fa fa-external-link"></i></a>",
-              "<a href="https://www.github.com/anguy95" target="_balnk">github&nbsp;<i class="fa fa-external-link"></i></a>"]</p>
+              "
+              <a href="https://www.github.com/anguy95" target="_balnk">github&nbsp;<i class="fa fa-external-link"></i></a>"]</p>
 
             <div class="last-term-line">
               <p class="last-line"> $Andrews-WebSite:</p>
@@ -65,7 +85,7 @@
         </div>
       </section>
 
-      <section class="skills section">
+      <section class="skills section" id="skills">
         <div class="text-center">
           <h2 class="center-title">SKILLS</h2>
         </div>
@@ -128,7 +148,7 @@
 
       </section>
 
-      <section class="projects section">
+      <section class="projects section" id="projects">
         <div class="text-center">
           <h2 class="center-title">PROJECTS</h2>
         </div>
@@ -166,7 +186,8 @@
               <img src="images/hushandroid.jpg">
               <div class="carousel-caption">
                 <h3 class="p-title">Hush Android App</h3>
-                <p class="p-desc"></p>
+                <p class="p-desc">This was a part time job/ volunteering position that I did to help start the front end development of the Hush Android application. During the time I was here, I redesigned the iOS wireframe to an Android Material Design wireframe using
+                  Sketch. Then I proceeded to help iterate and develop the Settings and Alarm Clock page.</p>
               </div>
             </div>
           </div>
@@ -187,10 +208,10 @@
         <p class="copyright">&#169; 2016 Andrew Nguyen </p>
         <div class="contact-icons">
           <ul>
-            <li><i class="fa fa-linkedin-square fa-2x"></i></li>
-            <li><i class="fa fa-twitter-square fa-2x"></i></li>
-            <li><i class="fa fa-google-plus-square fa-2x"></i></li>
-            <li><i class="fa fa-envelope fa-2x"></i></li>
+            <li><a href="https://www.linkedin.com/in/andrew-nguyen-3a02a692" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+            <li><a href="https://www.twitter.com/anguy95" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+            <li><a href="https://www.plus.google.com/anguy95" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
+            <li><a href="mailto:anguy95@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x"></i></a></li>
           </ul>
           <div>
       </footer>
