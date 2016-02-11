@@ -13,15 +13,14 @@ div,
   position: fixed;
   background: rgba(#ffffff, 0.9);
   z-index: 999999999;
-  .name{
+  .name {
     float: right;
     font-size: 25px;
     font-weight: 300;
     letter-spacing: 3px;
     padding: 0;
   }
-
-  .dropdown{
+  .dropdown {
     margin-top: 17px;
     padding-left: 0;
   }
@@ -42,7 +41,7 @@ a {
     height: 100%;
     position: absolute;
     top: 35px;
-    background: url(../images/logo.png);
+    background: url("../images/logo.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 450px;
@@ -118,7 +117,7 @@ a {
         .term_message {
           font-family: 'Inconsolata', monospace;
           font-weight: 700;
-          color: #212121;
+          color: #2d2c2c;
           letter-spacing: 1px;
           margin-top: 10px;
           margin-left: 35px;
@@ -128,7 +127,7 @@ a {
         .last-line {
           font-family: 'Inconsolata', monospace;
           font-weight: 700;
-          color: #212121;
+          color: #2d2c2c;
           letter-spacing: 1px;
           margin-left: 35px;
           margin-bottom: 6px;
@@ -204,39 +203,39 @@ a {
       margin-bottom: 37.5px;
     }
     .html {
-      background-image: url(../images/html5.svg);
+      background-image: url("../images/html5.svg");
       background-size: 35%;
     }
     .javascript {
-      background-image: url(../images/js.svg);
+      background-image: url("../images/js.svg");
       background-size: 30%;
     }
     .css {
-      background-image: url(../images/css.svg);
+      background-image: url("../images/css.svg");
       background-size: 30%;
     }
     .java {
-      background-image: url(../images/java.svg);
+      background-image: url("../images/java.svg");
       background-size: 17%;
     }
     .c {
-      background-image: url(../images/c.svg);
+      background-image: url("../images/c.svg");
       background-size: 30%;
     }
     .illustrator {
-      background-image: url(../images/illustrator.svg);
+      background-image: url("../images/illustrator.svg");
       background-size: 35%;
     }
     .photoshop {
-      background-image: url(../images/photoshop.svg);
+      background-image: url("../images/photoshop.svg");
       background-size: 35%;
     }
     .android-studio {
-      background-image: url(../images/android_studio.svg);
+      background-image: url("../images/android_studio.svg");
       background-size: 35%;
     }
-    .sketch{
-      background-image: url(../images/sketch.svg);
+    .sketch {
+      background-image: url("../images/sketch.svg");
       background-size: 35%;
     }
   }
@@ -250,7 +249,10 @@ a {
       margin: 0 auto;
       height: auto;
     }
-
+    .carousel-control.left,
+    .carousel-control.right {
+      background-image: none;
+    }
     .p-title {
       color: $title-color;
       text-shadow: none;

@@ -38,7 +38,7 @@ a {
     height: 100%;
     position: absolute;
     top: 35px;
-    background: url(../images/logo.png);
+    background: url("../images/logo.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 450px; }
@@ -110,7 +110,7 @@ a {
         .main-body .about .terminal_window .terminal .term_message {
           font-family: 'Inconsolata', monospace;
           font-weight: 700;
-          color: #212121;
+          color: #2d2c2c;
           letter-spacing: 1px;
           margin-top: 10px;
           margin-left: 35px;
@@ -119,7 +119,7 @@ a {
         .main-body .about .terminal_window .terminal .last-line {
           font-family: 'Inconsolata', monospace;
           font-weight: 700;
-          color: #212121;
+          color: #2d2c2c;
           letter-spacing: 1px;
           margin-left: 35px;
           margin-bottom: 6px; }
@@ -179,31 +179,31 @@ a {
       margin-top: 37.5px;
       margin-bottom: 37.5px; }
     .main-body .skills .html {
-      background-image: url(../images/html5.svg);
+      background-image: url("../images/html5.svg");
       background-size: 35%; }
     .main-body .skills .javascript {
-      background-image: url(../images/js.svg);
+      background-image: url("../images/js.svg");
       background-size: 30%; }
     .main-body .skills .css {
-      background-image: url(../images/css.svg);
+      background-image: url("../images/css.svg");
       background-size: 30%; }
     .main-body .skills .java {
-      background-image: url(../images/java.svg);
+      background-image: url("../images/java.svg");
       background-size: 17%; }
     .main-body .skills .c {
-      background-image: url(../images/c.svg);
+      background-image: url("../images/c.svg");
       background-size: 30%; }
     .main-body .skills .illustrator {
-      background-image: url(../images/illustrator.svg);
+      background-image: url("../images/illustrator.svg");
       background-size: 35%; }
     .main-body .skills .photoshop {
-      background-image: url(../images/photoshop.svg);
+      background-image: url("../images/photoshop.svg");
       background-size: 35%; }
     .main-body .skills .android-studio {
-      background-image: url(../images/android_studio.svg);
+      background-image: url("../images/android_studio.svg");
       background-size: 35%; }
     .main-body .skills .sketch {
-      background-image: url(../images/sketch.svg);
+      background-image: url("../images/sketch.svg");
       background-size: 35%; }
   .main-body .projects {
     background: #7aacab; }
@@ -213,6 +213,9 @@ a {
     .main-body .projects .carousel-inner img {
       margin: 0 auto;
       height: auto; }
+    .main-body .projects .carousel-control.left,
+    .main-body .projects .carousel-control.right {
+      background-image: none; }
     .main-body .projects .p-title {
       color: #585656;
       text-shadow: none; }
