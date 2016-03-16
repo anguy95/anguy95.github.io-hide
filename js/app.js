@@ -11,4 +11,4 @@ $(document).ready(function() {
       $(this).css("background-image", bg);
       $(this).css("color", "rgba(0, 0, 0, 0)");
     });
-});
+}); 
